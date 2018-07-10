@@ -1,7 +1,7 @@
 # RAK8212-itracker-firmware-based-on-nRF5SDK15.0.0-with-DFU
 RAK8212 itracker firmware based on nRF5 SDK15.0.0 with DFU function
 
-program the firmware of RAK8212
+Program the firmware of RAK8212
 
 RAKWireless provides a whole firmware which is an example for RAK8212 module on their Github page: 
 https://github.com/RAKWireless/RAK8212-itracker-firmware-based-on-nRF5SDK15.0.0-with-DFU.
