@@ -4,7 +4,8 @@ RAK8212 itracker firmware based on nRF5 SDK15.0.0 with DFU function
 program the firmware of RAK8212
 RAKWireless provides a whole firmware which is an example for RAK8212 module on their Github page: 
 https://github.com/RAKWireless/RAK8212-itracker-firmware-based-on-nRF5SDK15.0.0-with-DFU
-This firmware is based on the newest nRF5 SDK 15.0.0 and Softdevice S132 v6.0.0. It includes a Softdevice S132 V6.0.0, a bootloader supported OTA-DFU, and an application for RAK8212 module. You can use this firmware directly on RAK8212 module to send “hello world” to Hologram online service via GPRS. You can also send any data from RAK8212 module to anyone via NB-IoT or Cat M easily by developing your own firmware according to the source code of the example firmware provided by RAKWireless on their Github page. 
+This firmware is based on the newest nRF5 SDK 15.0.0 and Softdevice S132 v6.0.0. It includes a Softdevice S132 V6.0.0, a bootloader supported OTA-DFU, and an application for RAK8212 module. 
+You can use this firmware directly on RAK8212 module to send “hello world” to Hologram online service via GPRS. You can also send any data from RAK8212 module to anyone via NB-IoT or Cat M easily by developing your own firmware according to the source code of the example firmware provided by RAKWireless on their Github page. 
 Before our starting, we should install nRFgo Studio on our PC. It is a programing tool provided by Nordic. Surely, you can use any other programing tools too.
 https://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRFgo-Studio/(language)/eng-GB
 Program the firmware provided by RAKWireless to RAK8212 module directly
