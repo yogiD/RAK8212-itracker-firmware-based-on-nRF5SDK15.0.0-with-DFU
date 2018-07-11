@@ -42,7 +42,7 @@ Note: Only if the DFU button of the RAK8212 module is pressed during the module 
 
 To protect the target device against malicious attackers trying to impersonate the rightful sender of the firmware update, the init packet of the firmware package must be signed.
 
-You can either create your own firmware package or use the testing package “RAK8212.zip” provided by RAKWireless in the folder “ Firmware Zip for OTA-DFU”. The provided package is an application of RAK8212, and it has been generated using a private key that corresponds to the default public key in the provided firmware. This public key must not be used in production.
+You can either create your own firmware package or use the testing package “rak8212_iTracker_all.zip” provided by RAKWireless in the folder “ Firmware Zip for OTA-DFU”. This testing package includes Softdevice, bootloader, and application. You must note that this DFU package can be used only when the old Softdevice in the RAK8212 module is S132 V6.0.0. In the same folder, there is another testing package “rak8212_iTracker_app.zip”, which is only an application part package. These packages have been generated using a private key that corresponds to the default public key in the provided firmware. This public key must not be used in production.
 
 You can program the firmware via OTA-DFU according the following steps:
 a.	Transfer the zip firmware package that you want to upload to the mobile device:
