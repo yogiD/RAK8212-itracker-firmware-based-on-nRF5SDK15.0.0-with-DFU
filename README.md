@@ -20,6 +20,7 @@ Secondly, let’s select a programing method. There are two methods you can sele
 SWD interface
 
 If there is no firmware on your RAK8212 module, you must select this method for programing. You can also select this method surely even if there is already a firmware on your RAK8212 module.
+![image](https://github.com/RAKWireless/Pictures-for-readme/blob/master/RAK8212/picture1.jpg)
  
 According to the picture above, we connect RAK8212 module with PC via ARM Emulator, and open nRFgo Studio on our PC. Then we select “nRF5x programing” in the Device Manager panel, and the following UI will be shown in front of us:
  
