@@ -46,8 +46,10 @@ You can either create your own firmware package or use the testing package “ra
 
 You can program the firmware via OTA-DFU according the following steps:
 a.	Transfer the zip firmware package that you want to upload to the mobile device:
-	On iOS: Connect the mobile device to your computer and open iTunes. Select the mobile device and then Apps > nRF Toolbox (or nRF Connect). Then you can drag and drop a file directly into the application's internal storage. Alternatively, send an email attachment to the app from the mobile device itself. See the app's documentation for more information.
-	On Android: Connect the mobile device to your computer. Enable file transfer between the computer and the device and copy the zip file into a folder of your choice.
+
+On iOS: Connect the mobile device to your computer and open iTunes. Select the mobile device and then Apps > nRF Toolbox (or nRF Connect). Then you can drag and drop a file directly into the application's internal storage. Alternatively, send an email attachment to the app from the mobile device itself. See the app's documentation for more information.
+
+On Android: Connect the mobile device to your computer. Enable file transfer between the computer and the device and copy the zip file into a folder of your choice.
 
 b.	Use the nRF Toolbox or nRF Connect app to select a target device and a zip package and to start the process.
 
