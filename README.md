@@ -23,13 +23,15 @@ If there is no firmware on your RAK8212 module, you must select this method for 
 ![image](https://github.com/RAKWireless/Pictures-for-readme/blob/master/RAK8212/picture1.jpg)
  
 According to the picture above, we connect RAK8212 module with PC via ARM Emulator, and open nRFgo Studio on our PC. Then we select “nRF5x programing” in the Device Manager panel, and the following UI will be shown in front of us:
+![image](https://github.com/RAKWireless/Pictures-for-readme/blob/master/RAK8212/picture2.png)
  
 We can click the “Erase all” button to erase the firmware which had been programed into our RAK8212 module before, and it doesn’t matter that we start to program without erasing the old firmware.
 Now, let’s program the firmware:
 Click the “Browse” button and select the firmware file which is a .hex file;
- 
+![image](https://github.com/RAKWireless/Pictures-for-readme/blob/master/RAK8212/picture3.png)
+
 Click the “program” button to start;
- 
+![image](https://github.com/RAKWireless/Pictures-for-readme/blob/master/RAK8212/picture4.png)
 
 
 OTA-DFU
